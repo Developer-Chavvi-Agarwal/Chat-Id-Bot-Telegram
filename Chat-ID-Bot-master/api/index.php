@@ -1,6 +1,6 @@
 <?php
 
-$BOT_TOKEN = "8221950076:AAG53s5drTvuRPWlGcDMAdMsxGU2nsi4n-s";
+$BOT_TOKEN = "8221950076:AGcDMAdMsxGU2nsi4n-s";
 
 $LOG_FILE = __DIR__ . '/bot.log';
 
