@@ -1,6 +1,6 @@
 <?php
 
-$BOT_TOKEN = "YOUR_BOT_TOKEN";
+$BOT_TOKEN = "8445926239:AAGq6-Nj8Z1961ojeJjsCJJYnzOCJBhWswE";
 
 $LOG_FILE = __DIR__ . '/bot.log';
 
@@ -346,7 +346,7 @@ if ($text === '/start') {
                   "<b>💎 Features:</b>\n" .
                   "- Supports users, bots, private/public groups & channels\n" .
                   "- Fast and reliable\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $menu_buttons, true);
     logInfo("Sent /start message with keyboard to chat_id: $chat_id");
 }
@@ -357,7 +357,7 @@ if ($text === '/my') {
                   "🔧 <b>How to Use?</b>\n" .
                   "1️⃣ Click the buttons below to share your channel or group.\n" .
                   "2️⃣ Receive the unique ID instantly.\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $my_buttons, true);
     logInfo("Sent /my message with keyboard to chat_id: $chat_id");
 }
@@ -368,7 +368,7 @@ if ($text === '/admin') {
                   "🔧 <b>How to Use?</b>\n" .
                   "1️⃣ Click the buttons below to share a channel or group where you have admin privileges.\n" .
                   "2️⃣ Receive the unique ID instantly.\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $admin_buttons, true);
     logInfo("Sent /admin message with keyboard to chat_id: $chat_id");
 }
@@ -379,7 +379,7 @@ if ($text === '👥 Admins Chat') {
                   "🔧 <b>How to Use?</b>\n" .
                   "1️⃣ Click the buttons below to share a channel or group where you have admin privileges.\n" .
                   "2️⃣ Receive the unique ID instantly.\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $admin_buttons, true);
     logInfo("Sent Admins Chat message with keyboard to chat_id: $chat_id");
 }
@@ -390,7 +390,7 @@ if ($text === '👑 Owner Chat') {
                   "🔧 <b>How to Use?</b>\n" .
                   "1️⃣ Click the buttons below to share your channel or group.\n" .
                   "2️⃣ Receive the unique ID instantly.\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $my_buttons, true);
     logInfo("Sent Owner Chat message with keyboard to chat_id: $chat_id");
 }
@@ -405,7 +405,7 @@ if ($text === '🔙 Back') {
                   "<b>💎 Features:</b>\n" .
                   "- Supports users, bots, private/public groups & channels\n" .
                   "- Fast and reliable\n\n" .
-                  "<blockquote>🛠 Made with ❤️ By @bizft</blockquote>";
+                  "<blockquote>🛠 Made with ❤️ By Chavvi</blockquote>";
     sendHTMLMessage($BOT_TOKEN, $chat_id, $reply_text, $menu_buttons, true);
     logInfo("Sent Back message with keyboard to chat_id: $chat_id");
 }
